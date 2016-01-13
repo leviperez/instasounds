@@ -7,14 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/leviperez/instasounds.git"
-},
+    "type": "git",
+    "url": "https://github.com/leviperez/instasounds.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3"
+    "angular": "^1.4.8",
+    "angular-route": "^1.4.8",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.3",
+    "jquery": "^2.2.0"
   }
 }
-
-
