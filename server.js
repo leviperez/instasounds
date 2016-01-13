@@ -20,6 +20,7 @@ router.get("/contact",function(req,res){
   res.sendFile(path + "contact.html");
 });
 app.use('/scripts', express.static(__dirname + '/node_modules/'));
+app.use('/styles', express.static(__dirname + '/styles/'));
 app.use("/",router);
 
 app.use("*",function(req,res){
